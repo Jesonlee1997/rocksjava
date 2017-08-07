@@ -56,7 +56,7 @@ public class RocketDBServer {
                     properties.load(RocketDBServer.class.getResourceAsStream("/linux.properties"));
 
                 } else {
-                    properties.load(new FileInputStream("J:\\work\\ifeng\\rocks-java\\src\\main\\resources\\win.properties"));
+                    properties.load(new FileInputStream("J:\\work\\rocksjava\\rocketdb\\src\\main\\resources\\win.properties"));
                 }
 
             } catch (IOException e) {
